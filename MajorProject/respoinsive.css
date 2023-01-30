@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+   .art-div #aside-r{
+        width: 0%;
+        visibility: hidden;
+   }
+   .art-div{
+        display: flex;
+        flex-direction: column;
+   }
+
+   .art-div #aside-m1{
+        position: relative;
+        top:-380px;
+        width: 95%;
+        margin: 0px auto;
+        height: auto;
+        margin-bottom: 10px;
+   }
+   .art-div #aside-l1{
+        position: relative;
+        top:-380px;
+        width: 95%;
+        width: 100%;
+        margin: 0px auto;
+        height: 20px;
+    }
+    .art-div #aside-m{
+        position: relative;
+        top: -420px;
+        width: 95%;
+        margin: 0px auto;
+        height: auto;
+   }
+   .art-div #aside-l{
+        position: relative;
+        top: -420px;
+        width: 100%;
+        margin: 0px auto;
+        height: 170px;
+    }
+ }
